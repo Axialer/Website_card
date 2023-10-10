@@ -1,10 +1,115 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/ibm-plex-mono.min.css");
+.tetx_stile_1{
+	color: #FFF;
+	text-align: center;
+	font-family: IBM Plex Mono, sans-serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.tetx_stile_2{
+	color: #FFF;
+	text-align: center;
+	font-family: IBM Plex Mono, sans-serif;
+	font-size: 32px;
+	font-weight: 200;
+	line-height: 140%; /* 44.8px */
+	
+}
+
+.tetx_stile_3{
+	color: #FFF;
+	text-align: left;
+	font-family: IBM Plex Mono, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 120;
+	line-height: 140%; /* 33.6px */
+	margin-left: 3%;
+}
+
+.parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.block_enter{
+	width: 87px;
+	height: 45px;
+	flex-shrink: 0;
+	border: 1px solid #FFF;
+	background: rgb(217, 217, 217, 0.00);
+	margin-top: -8.5%;
+	margin-left: 70%;
+
+}
+.block_esc{
+	width: 57px;
+	height: 45px;
+	flex-shrink: 0;
+	border: 1px solid #FFF;
+	background: rgba(217, 217, 217, 0.00);
+	margin-top: -8.5%;
+	margin-left: 39%;
+
+}
+.block_arrol{
+	margin-top: -9%;
+	margin-left: 52.5%;
+}
+
+.block {
+    width: 724px;
+    height: 850px;
+    flex-shrink: 0;
+	border: 2px solid #D9D9D9;
+	background: rgba(217, 217, 217, 0.00);
+	position: absolute;
+	margin-top: 3%;
+	margin-left: 30%;
+    /*top: 5%;
+    left: 30%;*/
+}
+
+.block_2{
+	width: 700px;
+	height: 216px;
+	flex-shrink: 0;
+	border: 2px solid #FFF;
+	background: rgba(217, 217, 217, 0.00);
+	position: absolute;
+	top: 72.5%;
+    left: 1.27%;
+}
+
+.img{
+	
+	opacity: 0.97;
+}
+
 body {
 	color: #8f8f8f;
 	font: 12px Tahoma, sans-serif;
 	background-color: #f8f8f8;
 	border-top: 5px solid #7e7e7e;
 	margin: 0;
+	overflow: hidden;
 }
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  }
+
 input[type="text"] {
 	background-color: #f3f3f3;
 	border: 1px solid #e7e7e7;
@@ -48,60 +153,90 @@ nav li {
 	font: 14px 'Oswald', sans-serif;
 	padding: 10px;
 }
+.grain {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+  }
+#warning {
+	font-style: italic;
+}
+canvas {
+	display: none;
+}
+canvas,
+#output {
+	border: 5px solid rgb(128, 128, 128);
+	margin: 0 auto;
+}
+	
 
-.top-menu li {
-	display: inline-block;
-	padding: 10px 30px;
-	margin: 0;
+.noise {
+	background-image: url('./../white-noise_V1.gif');
+	
+	opacity: 0.50;
 }
 
-.top-menu li.active {
-	background: #29c5e6;
-	color: #fff;
+.typo-body {
+	background-color: rgba(0, 0, 0, 0.25); 	
+	opacity: 0.97;
 }
-
-.top-menu a {
-	color: #b2b2b2;
+.hero {
+	background: linear-gradient(#aaaaaa00, #aaaaaa00)
 }
-
-#heading {
-	background: transparent url(../images/h1-bg.png);
-	margin: 30px 0;
-	padding-left: 20px;
-}
-
-h1 {
-	display: inline-block;
-	color: #7e7e7e;
-	font: 40px/40px 'Oswald', sans-serif;
-	background: url(../images/bg.png);
-	margin: 0;
-	padding: 0 10px;
-}
-
-aside {
-	float: left;
-	width: 250px;
-}
-section {
-	margin-left: 280px;
-	padding-bottom: 50px;
-}   
-
-.aside-menu li {
+.wrapper{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
+  a{
+	display: block;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #aaa;
+	letter-spacing: 2px;
+	text-align: center;
+	position: relative;
+	transition: all .35s;
+  }
+  
+ /* a span{
+	position: relative;
+	z-index: 2;
+  }
+  
+  a:after{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: #aaa;
 	font-weight: 300;
-	list-style-type: square;
-	border-top: 1px solid #e7e7e7;
-}
-
-.aside-menu li:first-child {
-	border: none;
-}
-
-.aside-menu li.active {
-	color: #29c5e6;
-}
-
-.aside-menu a {
-	color: #8f8f8f;
+	transition: all .35s;
+  }
+  
+  a:hover{
+	color: rgba(0, 0, 0, 0.573);
+  }
+  
+  a:hover:after{
+	width: 100%;
+  }
+*/
+.active{
+	content: "";
+	top: 0;
+	background: #aaa;
+	font-weight: 300;
+	position: relative;
+	color: #FFF;
+	text-align: center;
+	font-family: IBM Plex Mono, sans-serif;
+	font-size: 38px;
+	font-weight: 200;
+	line-height: 140%;
 }
