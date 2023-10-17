@@ -10,6 +10,7 @@ function showSlide(n) {
   console.log(slides[n]);
 }
 
+
 document.addEventListener('keydown', function(event) {
   const slides = document.getElementsByClassName('magic');
   if (event.code == 'ArrowUp') {
@@ -21,8 +22,13 @@ document.addEventListener('keydown', function(event) {
   if (event.code == 'Enter') {
     if(document.getElementById('project').classList.contains('active')){ 
       /*window.location.href='projects.html';*/
-      
+      var x = document.documentElement.clientWidth;
+      if (x < '1200') {
+        $(Block_1).animate({opacity: 'hide'}, 500);
+        }
+      else{
       $(Block_1).animate({marginLeft: "8%"}, 500);
+      }
       /*$(Block_2).show();*/
       $(Block_2).animate({opacity: 'show'}, 500);
       $(Block_3).animate({opacity: 'hide'}, 500);
@@ -32,7 +38,13 @@ document.addEventListener('keydown', function(event) {
       /*document.getElementById('Block_1').style.marginLeft='3%';*/
       }
     if(document.getElementById('content').classList.contains('active')){ 
+      var x = document.documentElement.clientWidth;
+      if (x < '1200') {
+        $(Block_1).animate({opacity: 'hide'}, 500);
+        }
+      else{
       $(Block_1).animate({marginLeft: "8%"}, 500);
+      }
 
       $(Block_2).animate({opacity: 'hide'}, 500);
       $(Block_3).animate({opacity: 'show'}, 500);
@@ -40,7 +52,13 @@ document.addEventListener('keydown', function(event) {
       $(Block_5).animate({opacity: 'hide'}, 500);
       }
     if(document.getElementById('info').classList.contains('active')){ 
+      var x = document.documentElement.clientWidth;
+      if (x < '1200') {
+        $(Block_1).animate({opacity: 'hide'}, 500);
+        }
+      else{
       $(Block_1).animate({marginLeft: "8%"}, 500);
+      }
 
       $(Block_2).animate({opacity: 'hide'}, 500);
       $(Block_3).animate({opacity: 'hide'}, 500);
@@ -48,7 +66,13 @@ document.addEventListener('keydown', function(event) {
       $(Block_5).animate({opacity: 'hide'}, 500);
       }
     if(document.getElementById('options').classList.contains('active')){ 
+      var x = document.documentElement.clientWidth;
+      if (x < '1200') {
+        $(Block_1).animate({opacity: 'hide'}, 500);
+        }
+      else{
       $(Block_1).animate({marginLeft: "8%"}, 500);
+      }
 
       $(Block_2).animate({opacity: 'hide'}, 500);
       $(Block_3).animate({opacity: 'hide'}, 500);
@@ -59,7 +83,14 @@ document.addEventListener('keydown', function(event) {
   }
   if (event.code == 'Escape') {
     /*window.location.href='index.html';*/
+    var x = document.documentElement.clientWidth;
+    if (x < '1200') {
+      $(Block_1).animate({opacity: 'show'}, 500);
+      }
+    else{
     $(Block_1).animate({marginLeft: "30%"}, 500);
+    }
+    
     
     $(Block_2).animate({opacity: 'hide'}, 500);
     $(Block_3).animate({opacity: 'hide'}, 500);
