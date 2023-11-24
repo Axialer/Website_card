@@ -1,0 +1,25 @@
+{
+    "projects": [
+        {
+            "text": "There are no projects at the moment, but you can get acquainted with the Git repository.",
+            "link": "https://github.com/Axialer"
+        }],
+    "content":[ 
+        {
+            "text": "MEGA content."
+        }
+    ],
+    "info":[ 
+        {
+            "text1": "Why do you need information about me if you can go and watch anime)).",
+            "text2": "You can watch the anime here", 
+            "link": "https://animego.org/"
+        }
+    ],
+    "options":[ 
+        {
+            "text1": "There is no OPTIONS at the moment.",
+            "text2": "Thanks for understanding."
+        }
+    ]
+ }

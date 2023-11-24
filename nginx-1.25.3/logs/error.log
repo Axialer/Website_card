@@ -1,0 +1,67 @@
+2023/10/31 11:18:46 [notice] 11556#12280: signal process started
+2023/10/31 11:19:09 [notice] 26340#14548: signal process started
+2023/10/31 11:19:47 [notice] 9972#26520: signal process started
+2023/10/31 11:22:17 [error] 6868#26192: *1 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/10/31 11:22:35 [error] 6868#26192: *1 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2023/10/31 11:26:09 [error] 6868#26192: *4 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2023/10/31 11:26:13 [error] 6868#26192: *4 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2023/10/31 11:27:02 [error] 6868#26192: *4 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2023/10/31 11:28:08 [error] 6868#26192: *7 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2023/10/31 11:33:11 [notice] 24384#17688: signal process started
+2023/10/31 11:35:51 [notice] 24512#26208: signal process started
+2023/10/31 11:39:00 [notice] 26468#17628: signal process started
+2023/10/31 11:39:44 [notice] 23544#14408: signal process started
+2023/10/31 11:39:51 [notice] 11776#2812: signal process started
+2023/10/31 11:39:51 [error] 11776#2812: CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/10/31 11:40:17 [notice] 23048#6108: signal process started
+2023/10/31 11:40:57 [notice] 9940#15792: signal process started
+2023/10/31 11:41:04 [notice] 15256#18472: signal process started
+2023/10/31 11:41:04 [error] 15256#18472: CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/10/31 11:41:44 [notice] 5744#14724: signal process started
+2023/10/31 11:42:38 [notice] 24612#16088: signal process started
+2023/10/31 11:52:06 [notice] 8136#12276: signal process started
+2023/10/31 11:52:47 [notice] 5316#18976: signal process started
+2023/10/31 11:53:09 [notice] 5900#19868: signal process started
+2023/10/31 11:53:32 [notice] 22760#25504: signal process started
+2023/10/31 11:54:50 [error] 6476#21432: *4 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2023/10/31 11:58:15 [error] 6476#21432: *7 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2023/10/31 12:10:15 [error] 6476#21432: *12 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2023/10/31 12:13:11 [error] 6476#21432: *14 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/10/31 12:14:23 [error] 6476#21432: *16 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2023/10/31 12:14:30 [error] 6476#21432: *16 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../indehykjghhx.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /indehykjghhx.html HTTP/1.1", host: "localhost"
+2023/11/07 09:08:41 [error] 8424#9412: *2 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2023/11/07 09:09:37 [notice] 11532#14352: signal process started
+2023/11/07 09:20:46 [error] 8628#3940: *1 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/11/07 09:22:43 [notice] 11468#11400: signal process started
+2023/11/07 09:23:04 [notice] 13292#10592: signal process started
+2023/11/07 09:23:39 [notice] 20244#21344: signal process started
+2023/11/07 09:24:17 [notice] 4736#1952: signal process started
+2023/11/07 09:24:49 [notice] 19960#10360: signal process started
+2023/11/07 09:45:55 [notice] 11164#1864: signal process started
+2023/11/07 09:46:39 [notice] 20288#808: signal process started
+2023/11/07 09:47:37 [notice] 14864#13884: signal process started
+2023/11/07 09:48:22 [notice] 22276#8000: signal process started
+2023/11/07 09:48:48 [notice] 19124#21884: signal process started
+2023/11/07 09:53:41 [notice] 6328#3852: signal process started
+2023/11/07 09:54:26 [notice] 2752#20008: signal process started
+2023/11/07 09:58:25 [notice] 15028#13352: signal process started
+2023/11/07 09:58:58 [notice] 11852#13924: signal process started
+2023/11/07 10:01:13 [notice] 17708#17784: signal process started
+2023/11/07 10:01:42 [notice] 16332#16312: signal process started
+2023/11/07 10:05:50 [notice] 10352#15088: signal process started
+2023/11/07 10:07:10 [notice] 1660#9572: signal process started
+2023/11/07 10:11:08 [notice] 6340#21924: signal process started
+2023/11/07 10:14:41 [notice] 12404#18332: signal process started
+2023/11/07 10:18:56 [notice] 13324#4524: signal process started
+2023/11/07 10:20:16 [notice] 10048#9960: signal process started
+2023/11/07 10:24:58 [notice] 8736#15512: signal process started
+2023/11/07 10:41:49 [notice] 17636#22056: signal process started
+2023/11/07 10:50:50 [notice] 22064#16696: signal process started
+2023/11/07 10:51:08 [error] 16456#21728: *1 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2023/11/07 10:51:20 [error] 16456#21728: *1 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2023/11/07 11:25:48 [notice] 17360#14276: signal process started
+2023/11/07 12:13:28 [error] 14700#4164: *7 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../projecrs.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /projecrs.html HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2023/11/07 12:14:01 [notice] 4264#18592: signal process started
+2023/11/07 12:14:22 [error] 15052#2140: *1 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../indehykjghhx.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /indehykjghhx.html HTTP/1.1", host: "localhost"
+2023/11/21 09:08:22 [notice] 764#772: signal process started
+2023/11/21 09:17:10 [error] 14864#6264: *2 CreateFile() "C:\Users\capas\OneDrive\Рабочий стол\Project_1\nginx-1.25.3/../favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"

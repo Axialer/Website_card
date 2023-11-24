@@ -27,7 +27,7 @@ document.addEventListener('keydown', function(event) {
         $(Block_1).animate({opacity: 'hide'}, 500);
         }
       else{
-      $(Block_1).animate({marginLeft: "8%"}, 500);
+      $(Block_1).animate({marginLeft: "-25%"}, 500);
       }
       /*$(Block_2).show();*/
       $(Block_2).animate({opacity: 'show'}, 500);
@@ -43,7 +43,7 @@ document.addEventListener('keydown', function(event) {
         $(Block_1).animate({opacity: 'hide'}, 500);
         }
       else{
-      $(Block_1).animate({marginLeft: "8%"}, 500);
+      $(Block_1).animate({marginLeft: "-25%"}, 500);
       }
 
       $(Block_2).animate({opacity: 'hide'}, 500);
@@ -57,7 +57,7 @@ document.addEventListener('keydown', function(event) {
         $(Block_1).animate({opacity: 'hide'}, 500);
         }
       else{
-      $(Block_1).animate({marginLeft: "8%"}, 500);
+      $(Block_1).animate({marginLeft: "-25%"}, 500);
       }
 
       $(Block_2).animate({opacity: 'hide'}, 500);
@@ -71,7 +71,7 @@ document.addEventListener('keydown', function(event) {
         $(Block_1).animate({opacity: 'hide'}, 500);
         }
       else{
-      $(Block_1).animate({marginLeft: "8%"}, 500);
+      $(Block_1).animate({marginLeft: "-25%"}, 500);
       }
 
       $(Block_2).animate({opacity: 'hide'}, 500);
@@ -88,7 +88,7 @@ document.addEventListener('keydown', function(event) {
       $(Block_1).animate({opacity: 'show'}, 500);
       }
     else{
-    $(Block_1).animate({marginLeft: "30%"}, 500);
+    $(Block_1).animate({marginLeft: "0"}, 500);
     }
     
     
